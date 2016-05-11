@@ -1,0 +1,23 @@
+[
+  {
+    "name": "skip-install",
+    "type": "Boolean",
+    "required": false,
+    "desc": "Skip npm, bower and tsd install after project generation",
+    "defaults": false
+  },
+  {
+    "name": "skip-message",
+    "type": "Boolean",
+    "required": false,
+    "desc": "Skip install messages",
+    "defaults": false
+  },
+  {
+    "name": "automate",
+    "type": "String",
+    "required": false,
+    "desc": "Automate prompt answers using the specified JSON file",
+    "defaults": null
+  }
+]

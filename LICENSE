@@ -1,3 +1,6 @@
+Based on [angular2-webpack](https://github.com/web-techwatch/angular2-webpack) starter.
+Portions of project generator-gulp-angular are Copyright (c) 2016 Preboot team
+
 The MIT License (MIT)
 
 Copyright (c) 2016 Yohan Lasorsa
