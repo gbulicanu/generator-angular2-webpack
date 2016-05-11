@@ -165,21 +165,22 @@ var Generator = generators.Base.extend({
   install: function() {
     var self = this;
 
-    // Launch npm, bower and tsd installs if not skipped
-    this.installDependencies({
-      skipInstall: this.options['skip-install'],
-      skipMessage: this.options['skip-message']
-      // callback: function() {
-      //   if (!self.options['skip-install']) {
-      //     self.spawnCommandSync('gulp', ['tsd:restore']);
-      //
-      //     // Prepare Cordova platforms
-      //     if (self.props.target !== 'web') {
-      //       self.spawnCommandSync('gulp', ['cordova:prepare']);
-      //     }
-      //   }
-      // }
-    });
+    // Launch npm and typings installs if not skipped
+    this.npmInstall();
+    // this.installDependencies({
+    //   skipInstall: this.options['skip-install'],
+    //   skipMessage: this.options['skip-message']
+    //   callback: function() {
+    //     if (!self.options['skip-install']) {
+    //       self.spawnCommandSync('gulp', ['tsd:restore']);
+    //
+    //       // Prepare Cordova platforms
+    //       if (self.props.target !== 'web') {
+    //         self.spawnCommandSync('gulp', ['cordova:prepare']);
+    //       }
+    //     }
+    //   }
+    // });
   },
 
   end: function() {
