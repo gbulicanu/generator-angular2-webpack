@@ -1,6 +1,6 @@
 {
   "name": "generator-angular2-webpack",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Web/mobile Angular 2 project generator for scalable, enterprise-grade applications (Webpack, TypeScript, Sass, Bootstrap, Ionic, Material, Font Awesome...)",
   "repository": "sinedied/generator-angular2-webpack",
   "keywords": [],
